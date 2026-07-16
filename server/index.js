@@ -42,4 +42,7 @@ mongoose
     // Product.insertMany(products);
     // Transaction.insertMany(transactions);
   })
-  .catch((error) => console.log(`${error} did not connect`));
+  .catch((error) => {
+    console.error(`MongoDB connection failed: ${error}`);
+    process.exit(1);
+  });
