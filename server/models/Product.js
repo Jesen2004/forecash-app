@@ -1,3 +1,9 @@
+/* Product.js pada folder models ini berfungsi sebagai "SKEMA MODEL DATABASE PRODUK/BIAYA" (Mongoose Product Schema)
+yang menentukan struktur penyimpanan data barang dan komponen biaya perkuliahan di server Backend (MongoDB).
+Secara awam, file ini bertugas sebagai aturan cetak biru (blueprint) di database untuk mengatur cara menyimpan ID 
+produk kustom, harga nominal pasar, alokasi modal pengeluaran, serta hubungan relasinya dengan transaksi.
+*/
+
 import mongoose from "mongoose";
 import { loadType } from "mongoose-currency";
 

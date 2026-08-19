@@ -1,3 +1,10 @@
+/* types.ts pada folder state ini berfungsi sebagai "KONTRAK STRUKTUR DATA" (Type Definitions / Blueprint Layer) 
+yang mendefinisikan aturan dan tipe data secara presisi mengalir dalam aplikasi menggunakan TypeScript. 
+Secara awam, file ini bertugas sebagai kamus cetak biru (blueprint) yang memastikan bahwa seluruh data yang dikirim
+oleh server backend (MongoDB/Express) memiliki bentuk, nama bidang (field), dan tipe variabel yang sesuai saat 
+diproses oleh frontend (React). 
+*/
+
 export interface ExpensesByCategory {
   salaries: number;
   supplies: number;

@@ -1,3 +1,11 @@
+/* index.js ini berfungsi sebagai "PUSAT SERVER & PENGHUBUNG DATABASE" (Main Entry Point Backend Server) yang 
+menjalankan aplikasi server Express.js, mengonfigurasi keamanan, menghubungkan router API, dan membuka koneksi ke 
+database MongoDB.
+Secara awam, file ini bertugas sebagai mesin utama Backend yang menyalakan server di port tertentu (misalnya Port 
+1337 atau 9000), mengamankan lalu lintas data, menyambungkan pintu-pintu API, serta mengintegrasikan data simulasi 
+(seeding data) ke database.
+*/
+
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";

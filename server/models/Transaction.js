@@ -1,3 +1,11 @@
+/* Transaction.js pada folder models ini berfungsi sebagai "SKEMA MODEL DATABASE TRANSAKSI" (Mongoose Transaction 
+Schema) yang menentukan struktur penyimpanan log riwayat pencatatan transaksi mutasi keuangan di server Backend 
+(MongoDB).
+Secara awam, file ini bertugas sebagai cetak biru (blueprint) di database untuk mengatur cara menyimpan ID 
+transaksi (NIM/kode unik), identitas responden mahasiswa, total nominal transaksi, serta daftar produk biaya yang 
+dibeli.
+*/
+
 import mongoose from "mongoose";
 import { loadType } from "mongoose-currency";
 

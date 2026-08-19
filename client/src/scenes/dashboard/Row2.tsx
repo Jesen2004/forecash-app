@@ -1,3 +1,8 @@
+/* Row2.tsx berfungsi sebagai "BARIS KEDUA DASBOR" (Second Dashboard Section) yang menyajikan analisis operasional,
+korelasi biaya, dan target alokasi anggaran mahasiswa. 
+Secara awam, file ini bertugas mengolah dan menampilkan 3 panel informasi keuangan tingkat menengah secara visual. 
+*/
+
 import BoxHeader from "@/components/BoxHeader";
 import DashboardBox from "@/components/DashboardBox";
 import FlexBetween from "@/components/FlexBetween";

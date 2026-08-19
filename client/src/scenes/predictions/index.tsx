@@ -1,3 +1,10 @@
+/* index.tsx pada folder predictions ini berfungsi sebagai "HALAMAN ANALITIK PREDIKTIF" (Forecasting View Page) 
+yang menghitung dan merender grafik peramalan tren pendapatan masa depan berbasis algoritma Regresi Linear 
+Sederhana (Y=a+bX). 
+Secara awam, file ini bertugas mengolah data historis pemasukan, membuat garis tren terbaik (best fit line), lalu 
+menampilkan garis proyeksi putus-putus oranye ketika tombol pemicu prediksi diklik oleh pengguna. 
+*/
+
 import DashboardBox from "@/components/DashboardBox";
 import FlexBetween from "@/components/FlexBetween";
 import { useGetKpisQuery } from "@/state/api";

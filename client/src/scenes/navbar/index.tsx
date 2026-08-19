@@ -1,3 +1,9 @@
+/* index.tsx pada folder navbar ini berfungsi sebagai "NAVIGASI ATAS APLIKASI" (Top Navigation Bar) yang 
+menyediakan identitas aplikasi serta tombol perpindahan antar halaman. 
+Secara awam, file ini bertugas menampilkan bilah menu di bagian paling atas layar yang berisi logo brand Forecash 
+di sebelah kiri, serta dua tombol navigasi utama di sebelah kanan untuk berpindah halaman. 
+*/
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import PixIcon from "@mui/icons-material/Pix";

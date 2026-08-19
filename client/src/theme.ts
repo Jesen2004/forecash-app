@@ -1,3 +1,10 @@
+/* theme.ts ini berfungsi sebagai "PUSAT PENGATURAN WARNA DAN TULISAN" (Central Design System / Theme Configuration)
+yang mendefinisikan palet warna, skala tingkat kecerahan (color tokens), dan ukuran huruf (typography) untuk 
+seluruh aplikasi Material UI.
+Secara awam, file ini bertugas sebagai buku panduan desain (style guide) agar tampilan warna latar belakang, warna 
+grafik, dan ukuran teks di setiap halaman dasbor terlihat seragam, rapi, dan estetis.
+*/
+
 export const tokens = {
   grey: {
     100: "#f0f0f3",

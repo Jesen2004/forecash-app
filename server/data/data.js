@@ -1,3 +1,10 @@
+/* data.js ini berfungsi sebagai "BASIS DATA / BENIH DATA" (Mock Data Seed File) yang menyimpan seluruh data 
+mentah (raw dummy data) untuk diunggah ke MongoDB (seeding) atau dijadikan sumber data aplikasi.
+Secara awam, file ini bertugas menyediakan data simulasi riil kuesioner dari 30 responden mahasiswa Fasilkom 
+Universitas Esa Unggul Bekasi, yang mencakup data indikator finansial bulanan (KPI), daftar 30 item produk biaya 
+kuliah, dan 30 riwayat transaksi transaksi mahasiswa.
+*/
+
 import mongoose from "mongoose";
 
 export const kpis = [

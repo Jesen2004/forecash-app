@@ -1,3 +1,9 @@
+/* index.css ini berfungsi sebagai "PENGATUR TAMPILAN GLOBAL" (Global Style Sheet) yang menentukan gaya visual 
+paling dasar dan utama untuk seluruh halaman aplikasi.
+Secara awam, file ini bertugas mengunci ukuran layar, menetapkan jenis huruf (font), dan memberikan warna latar 
+belakang gelap (dark mode) ke seluruh aplikasi agar tampilan dasbor konsisten dari ujung ke ujung.
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 html,

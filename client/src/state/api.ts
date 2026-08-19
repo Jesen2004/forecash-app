@@ -1,3 +1,11 @@
+/* api.ts pada folder state ini berfungsi sebagai "JALUR KOMUNIKASI DATA / JEMBATAN API" (Central Data Fetching & 
+Caching Layer) yang menghubungkan aplikasi Frontend (React) dengan server Backend (Node.js/Express.js) menggunakan 
+Redux Toolkit Query (RTK Query). 
+Secara awam, file ini bertugas mengirimkan permintaan (request) data ke server untuk mengambil data keuangan, 
+produk, dan transaksi, lalu menyimpannya secara otomatis di memori aplikasi agar grafik dapat dirender secara 
+real-time. 
+*/
+
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import type {
   GetKpisResponse,

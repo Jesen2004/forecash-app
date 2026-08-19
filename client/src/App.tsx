@@ -1,3 +1,9 @@
+/* App.tsx ini berfungsi sebagai "PINTU UTAMA & PENGATUR TEMA APLIKASI" (Root Component & Routing Engine) yang 
+menggabungkan seluruh komponen antarmuka, pengaturan tema dark mode, serta sistem navigasi antarhalaman. 
+Secara awam, file ini bertugas sebagai fondasi tempat menempelnya bilah navigasi (Navbar), penyedia tema visual 
+Material UI, dan pengatur alur perpindahan antarahalaman aplikasi. 
+*/
+
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { useMemo } from "react";

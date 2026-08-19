@@ -1,3 +1,9 @@
+/* Row3.tsx berfungsi sebagai "BARIS KETIGA DASBOR" (Third Dashboard Section) yang menyajikan detail data 
+transaksional, tabel rincian biaya, serta ringkasan naratif pengeluaran mahasiswa. 
+Secara awam, file ini bertugas menampilkan data mentah dari database ke dalam bentuk tabel interaktif dan diagram 
+lingkaran kecil (Donut Charts) untuk mendukung analisis mikro. 
+*/
+
 import BoxHeader from "@/components/BoxHeader";
 import DashboardBox from "@/components/DashboardBox";
 import FlexBetween from "@/components/FlexBetween";

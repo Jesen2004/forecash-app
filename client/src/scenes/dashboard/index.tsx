@@ -1,3 +1,10 @@
+/* index.tsx ini berfungsi sebagai "PENGATUR TATA LETAK UTAMA" (Master Grid Layout Engine) yang menyusun dan 
+mengatur posisi 10 panel grafik/tabel di halaman dasbor secara responsif. 
+Secara awam, file ini bertugas memastikan tampilan dasbor otomatis menyesuaikan diri: tampil 3 kolom yang rapi saat
+dibuka di layar komputer/laptop, dan otomatis berubah menjadi 1 kolom memanjang ke bawah saat dibuka di layar yang 
+lebih kecil (seperti HP atau tablet).
+*/
+
 import { Box, useMediaQuery } from "@mui/material";
 import Row1 from "./Row1";
 import Row2 from "./Row2";

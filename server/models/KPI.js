@@ -1,3 +1,11 @@
+/* KPI.js pada folder models ini berfungsi sebagai "SKEMA MODEL DATABASE KPI" (Mongoose KPI Schema/Database 
+Structure) yang mendefinisikan struktur tabel/koleksi data indikator kinerja utama (Key Performance Indicators) 
+finansial di server Backend (MongoDB).
+Secara awam, file ini bertugas sebagai aturan cetak biru (blueprint) penyimpanan di database untuk mengatur 
+bagaimana angka total keuntungan, total pendapatan, pengeluaran bulanan, dan pengeluaran harian disimpan serta 
+diolah secara presisi.
+*/
+
 import mongoose from "mongoose";
 import { loadType } from "mongoose-currency";
 

@@ -1,3 +1,9 @@
+/* Row1.tsx berfungsi sebagai "BARIS PERTAMA DASBOR" (First Dashboard Section) yang menyajikan 3 grafik visualisasi
+keuangan makro utama secara bulanan.
+Secara awam, file ini bertugas mengambil data transaksi historis dari server, mengolah angka-angkanya, lalu 
+menampilkannya dalam bentuk grafik visual yang mudah dipahami. 
+*/
+
 import BoxHeader from "@/components/BoxHeader";
 import DashboardBox from "@/components/DashboardBox";
 import { useGetKpisQuery } from "@/state/api";
